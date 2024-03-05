@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SUDOKU</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+    <h1>Sudoku Solver</h1>
+
+    <div class="container">
+      <div class="buttons">
+        <button onclick="generate_sudoku();">Generate Sudoku</button><br>
+        <!--<button onclick="load_sudoku();">Load Sudoku</button><br>-->
+        <button onclick="solve_sudoku();">Solve Sudoku</button><br>
+        <button onclick="clear_gui();">Clear Board</button>
+      </div>
+        
+      <div class="sudoku-container">
+        <table id="gui">
+        </table>
+      </div>
+
+      <div class="info-box">
+        <p>This sudoku solver is created using pure javascript. The GUI is also created using javascript, 
+        and it is styled using CSS.<br>
+        It uses a <a href="https://en.wikipedia.org/wiki/Sudoku_solving_algorithms" target="blank">
+        backtracking algorithm</a>.
+        You can view the code <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
+        here</a>.</p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
