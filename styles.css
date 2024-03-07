@@ -1,21 +1,46 @@
 body {
-    background-color: white;
+    background-color: rgb(53, 109, 250);
     color: black;
     font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+    margin: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
 .container {
-    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: grid;
 }
 
+.buttons{
+    position: absolute;
+}
+
+.info-box{
+    align-items: baseline;
+}
+
+p{
+}
+
+
 .buttons button{
-    margin-top: 10px;
-    height: 30px;
-    width: 170px;
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .sudoku-container {
     margin-left: 10px;
+    vertical-align: top;
 }
 
 .info-box {
