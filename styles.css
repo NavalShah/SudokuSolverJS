@@ -78,3 +78,13 @@ td:nth-child(3n) {
 tr:nth-child(3n) td {
     border-bottom: solid;
 }
+
+
+.custom-shape-divider-top-1709780005 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}   
